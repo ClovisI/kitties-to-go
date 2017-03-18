@@ -1,0 +1,26 @@
+ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:nowrap;
+  flex-wrap:wrap;
+  flex-wrap:wrap-reverse;
+  align-items: baseline;
+  align-items: center;
+  align-items: flex-end;
+  align-items: flex-start;
+  flex-flow:
+}
+
+p span {
+  display: block;
+}
+
+.main-flex {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main {
+  width: 66.6%;
+}
