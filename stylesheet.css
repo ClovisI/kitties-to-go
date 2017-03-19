@@ -1,3 +1,7 @@
+html{
+  font-size: 16px;
+}
+
 ul{
   display: flex;
   justify-content: space-around;
@@ -11,8 +15,35 @@ ul{
   flex-flow:
 }
 
+li {
+    list-style: none;
+}
+
+footer{
+  background-color: black;
+}
+
+header{
+  background-color: black;
+}
+
+nav {
+  background-color: grey;
+}
+
 p span {
   display: block;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.arrow {
+  /*font-size: 3rem;*/
+}
+
+.link {
+  font-size: 2rem;
+  position: absolute;
+  left: 10rem;
 }
 
 .main-flex {
@@ -23,4 +54,19 @@ p span {
 
 .main {
   width: 66.6%;
+}
+
+.cats{
+  width: 33%;
+  margin: auto;
+  padding: inherit;
+  border: 1px solid black;
+}
+
+.page-description {
+  color: grey;
+}
+
+.page-header {
+  color: white;
 }
