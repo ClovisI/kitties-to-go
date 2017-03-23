@@ -7,26 +7,28 @@
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <header>
-      <a href="#" class="link">Open right MEOW! Book a cat <span class="arrow">&#10140</span></a>
-      <blockquote cite="http://">
+    <header class="home">
+      <a href="#" class="booknow-link">Open right MEOW! Book a cat <span class="arrow">&#10140;</span></a>
+      <blockquote>
+        <a href="./index.html">
         <h1 class="page-header">Kitties To Go!</h1>
         <p class="page-description">Seattle's premiere drive-thru cat rentals</p>
+        </a>
       </blockquote>
     </header>
     <nav>
       <ul>
-        <a href="#"><li>About</li></a>
-        <a href="#"><li>Rates</li></a>
-        <a href="#"><li>Liability Release</li></a>
-        <a href="#"><li>Kitty Profiles</li></a>
-        <a href="#"><li>Book a Cat</li></a>
+        <li><a href="./about.html" class="nav-link">About</a></li>
+        <li><a href="./rates.html" class="nav-link">Rates</a></li>
+        <li><a href="#" class="nav-link">Liability Release</a></li>
+        <li><a href="#" class="nav-link">Kitty Profiles</a></li>
+        <li><a href="#" class="nav-link">Book a Cat</a></li>
       </ul>
     </nav>
     <main>
       <div class="main-flex">
       <article class="main">
-        <blockquote cite="http://">
+        <blockquote>
           <h2>The Kitties To Go Story</h2>
           <p>
             Cats ipsum dolor sit amet, has closed eyes but
@@ -40,7 +42,7 @@
         </blockquote>
       </article>
       <article class="main">
-        <blockquote cite="http://">
+        <blockquote>
           <h2>Testimonials</h2>
           <p><em>"Please stop looking at your phone and pet me. Lounge in doorway eat and than sleep on your face meowwww meowwww" - Jeremy</em></p>
           <p><em>"Meow get video posted to internet for chasing red dot." - Jenny from the block</em></p>
@@ -49,29 +51,31 @@
       <aside class="cats">
         <section>
           <h1>Cat of the Week</h1>
-          <img src="kitty" alt="Swinging Cat">
+          <img src="/images/kitty.jpg" alt="Swinging Cat">
           <h4>The Biscuit</h4>
           <p>All she wants to break your walls.</p>
-          <a href="#">Book Now &#8594</a>
+          <a href="#">Book Now &#8594;</a>
         </section>
-        <section>
+        <section class="odin">
           <h4>Fan Favorite</h4>
-          <img src="kitty" alt="squiggly cat">
+          <img src="/images/odin.jpg" alt="squiggly cat">
           <h4>Odin</h4>
-          <a href="#">Book Now &#8594</a>
+          <span><a href="#">Book Now &#8594;</a></span>
         </section>
       </aside>
-    </main>
     </div>
+    </main>
     <footer>
       <section class="page-header">
           <p><span>Kitties To Go!</span>
             <span>(555) 867-5309</span>
+            <a class="email" href="mailto:kittiestogo@catmail.com">
             <span>kittiestogo@catmail.com</span>
+            </a>
           </p>
       </section>
       <section>
-        <p class="page-header"><span>Please Cat Responsibly</span>
+        <p class="page-copyright"><span>Please Cat Responsibly</span>
         <span>copyright 2017 Kitties To Go!, LLC</span></p>
       </section>
     </footer>
